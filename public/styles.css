@@ -1,0 +1,130 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #eeaeca;
+  background: radial-gradient(
+    circle,
+    rgba(238, 174, 202, 1) 0%,
+    rgba(148, 187, 233, 1) 100%
+  );
+  padding: 30px;
+  font-family: monospace;
+}
+h1,
+h2 {
+  color: #333;
+}
+
+h1 {
+  text-align: center;
+  text-decoration: underline;
+  font-size: 28px;
+}
+
+h2 {
+  margin-top: 34px;
+  font-size: 22px;
+}
+pre,
+code,
+textarea {
+  background: #eeeeee;
+  padding: 20px;
+  border-radius: 5px;
+  display: block;
+  width: 97%;
+
+  border: 2px solid black;
+  font-size: 14px;
+}
+
+.token {
+  display: inline-block;
+  margin: 4px;
+  padding: 20px 10px;
+  border-radius: 4px;
+
+  font-size: large;
+  border: 1px solid #8f8f8f;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.token:hover {
+  transform: scale(1.04);
+  box-shadow: 0 4px 10px rgb(100, 100, 100);
+}
+
+.keyword {
+  background-color: #d0ebff;
+  color: #0a58ca;
+}
+.function {
+  background-color: #e6ccff;
+  color: #5f27cd;
+}
+.unknown {
+  background-color: #ffe6e6;
+  color: #d90429;
+  border: 1px solid #d90429;
+}
+.identifier {
+  background-color: #d3f9d8;
+  color: #2b8a3e;
+}
+.number {
+  background-color: #fff3bf;
+  color: #d9480f;
+}
+.operator {
+  background-color: #ffe0cc;
+  color: #d9480f;
+}
+.symbol {
+  background-color: #facdf4;
+  color: #495057;
+}
+.string {
+  background-color: #e3fafc;
+  color: #0b7285;
+}
+.label {
+  display: block;
+  font-size: 0.85em;
+  color: #555;
+  text-align: center;
+  margin-top: 2px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  font-size: 18px;
+}
+th,
+td {
+  padding: 10px;
+  border: 1px solid black;
+  text-align: left;
+}
+th {
+  background-color: #dee2e6;
+}
+tbody tr:hover {
+  background-color: #f8f9fa;
+}
+
+button {
+  padding: 10px 15px;
+  font-size: 1rem;
+  margin-top: 10px;
+  cursor: pointer;
+  background-color: #333;
+  color: white;
+  border-radius: 5px;
+  transition: transform 0.2s ease box-shadow 0.2s ease;
+}
+button:hover {
+  cursor: pointer;
+  transform: scale(1.03);
+  box-shadow: 0 2px 8px gray;
+}
