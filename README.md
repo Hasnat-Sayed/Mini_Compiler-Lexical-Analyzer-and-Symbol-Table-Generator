@@ -60,9 +60,11 @@ printf("Value: %d", a);
 ---
 
 ## 📸 Screenshots
-![compiler1](https://github.com/user-attachments/assets/eb2bfc9d-2356-468e-bf73-0909548df902)
+![compiler1](https://github.com/user-attachments/assets/f9d0ac1f-95d9-41a8-bd52-df081b464d9e)
 
-![compiler2](https://github.com/user-attachments/assets/ed7b14ef-f146-49e6-9784-28e7fa5f70b2)
+![compiler2](https://github.com/user-attachments/assets/85d9c7f4-230a-430c-8383-0e0a9a79ed44)
+
+---
 
 ## 🌐 Live Demo (Frontend Only)
 
